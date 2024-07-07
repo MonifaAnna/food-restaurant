@@ -1,0 +1,264 @@
+/* fonts.com */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+/* bannar styles */
+#hero{
+    height: 432px;
+    max-width:902px;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.785),transparent),url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+#hero > div{
+    max-width: 480px;
+    color: white;
+}
+#hero > div .sub-title{
+    font-family:work Sans;
+    font-weight: 600;
+    font-size:20px;
+    Letter-spacing: 0%;
+    text-align:center;
+    opacity: 0.8;
+}
+#hero div h1{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#hero div p{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 11px 0px;
+}
+.btn-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin: 15px 0px;
+    padding: 17px 32px 17px 32px;
+    /* Inside Auto Layout */
+    font-family: work sans;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+    border-radius: 8px;
+    border: 0px;
+    color: white;
+    background: rgb(82, 195, 3);
+}
+/* card styles */
+.card-section{
+    margin: 78px 141px 0px 141px;
+   
+}
+.card-section > div > p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 78px;
+    }
+.card-section > div > h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.card{
+    width: 200px;
+    height: 247px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
+.card > button{
+    position: static;
+    border: 0px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    margin-top: 15px;
+    font-weight: 700;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card > h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+   
+    margin-top: 11px;
+}
+.card > p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 11px;
+}
+/* we always container style starts */
+.we-always-container{
+    max-width:902px;
+    height: 315px;
+    margin: 0px auto;
+    margin-top: 100px;
+    display: flex;
+}
+.we-always-pic{
+    max-width:451px;
+    height: 100%;
+}
+.we-always-pic img{
+    width: 100%;
+    height: 100%;
+}
+.we-always-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 63px;
+}
+.we-always-content > h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height:30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.we-always-content > p{
+    color: rgb(86, 85, 85);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+.we-always-content > span{
+    color: rgb(86, 85, 85);
+    font-family: Work Sans;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.icon-container > img{
+    width: 18px;
+    height: 18px;
+    margin-top: 24px;
+    margin-left: 10px;
+}
+/* single card style  */
+.single-card{
+    margin:0px auto;
+    margin-top: 100px;
+    height: 307px;
+  
+}
+.card-description{
+    margin-bottom: 30px;
+}
+.card-btn{
+    padding: 14px 24px 14px 24px;
+    /* Inside Auto Layout */
+    font-family: work sans;
+    border-radius: 8px;
+    border: 0px;
+    color: white;
+    background: rgb(82, 195, 3);
+}
+/* footer style */
+.footer-container{
+    max-width:902px;
+    height: 315px;
+    margin: 0px auto;
+    margin-top: 100px;
+    background-image: url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.831);
+    background-blend-mode: overlay;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 315px;
+}
+.footer-content > h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height:30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer-content > p{
+    color: rgb(86, 85, 85);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+.footer-content > span{
+    color: rgb(86, 85, 85);
+    font-family: Work Sans;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.icon-parent > img{
+    width: 18px;
+    height: 18px;
+    margin-top: 24px;
+    margin-left: 10px;
+}
