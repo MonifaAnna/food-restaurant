@@ -6,8 +6,8 @@
 }
 /* bannar styles */
 #hero{
-    height: 432px;
-    max-width:902px;
+    height: 735px;
+    max-width:1230px;
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.785),transparent),url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +137,7 @@
 }
 /* we always container style starts */
 .we-always-container{
-    max-width:902px;
+    max-width:1230px;
     height: 315px;
     margin: 0px auto;
     margin-top: 100px;
@@ -212,7 +212,7 @@
 }
 /* footer style */
 .footer-container{
-    max-width:902px;
+    max-width:1230px;
     height: 315px;
     margin: 0px auto;
     margin-top: 100px;
